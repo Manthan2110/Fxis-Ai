@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+    <header>
+        <nav>
+            <a href="#home">HOME</a> |
+            <a href="#menu">MENU</a> |
+            <a href="#location">LOCATION</a> |
+            <a href="#aboutus">ABOUT US</a> |
+            <a href="#contactus">CONTACT US</a>
+        </nav>
+    </header>
+
+    <section id="home">
+		<img src="banner.jpg" alt="Home Banner">
+        <!-- Add images here -->
+    </section>
+
+    <section id="menu">
+        <div>Our Menu</div>
+        <div class="grid-container">
+            <img src="Pav-Bhaji.jpg" alt="Menu Item 1">
+            <img src="Chole-Bhature.jpg" alt="Menu Item 2">
+            <img src="Samosa.jpg" alt="Menu Item 3">
+            <img src="vada-pav.jpg" alt="Menu Item 4">
+            <img src="Pizza-2.jpg" alt="Menu Item 5">
+            <img src="Rava-Dosa-2.jpg" alt="Menu Item 6">
+            <img src="Veg-Biryani.avif" alt="Menu Item 7">
+            <img src="Mango-Lassi-2.jpg" alt="Menu Item 8">
+            <img src="Masala-Dosa-2.jpg" alt="Menu Item 9">
+        </div>
+    </section>
+
+    <section id="location">
+        <h2>Location</h2>
+        <p>Manek Chowk Food Market, Ahmedabad</p>
+        <!-- Add map widget here -->
+    </section>
+
+    <section id="contactus">
+        <h2>Contact Us</h2>
+        <p>Got questions? Want to place an order? Call us at +9193664514 or email us at info@atliqfastfood.com</p>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2025 Atliq Fast Food. All rights reserved.</p>
+        <p>Follow us on 
+            <a href="https://facebook.com" target="_blank">Facebook</a>, 
+            <a href="https://twitter.com" target="_blank">Twitter</a>, 
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+
+
+    <style>
+        df-messenger {
+          --df-messenger-chat-background: #ffffff; /* White background */
+          --df-messenger-font-color: #000000; /* Black text color */
+          --df-messenger-input-placeholder-font-color: #888888; /* Placeholder text color */
+          --df-messenger-input-font-color: #000000; /* Input text color */
+        }
+      </style>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Snacky"
+      agent-id="5ddc7de7-36cf-42d3-b2e8-3e95beb8b4bb"
+      language-code="en"
+      chat-icon="https://i.ibb.co/TBntVRpD/Chatting-1.png"
+    ></df-messenger>
+
+<!-- chat-icon="https://i.ibb.co/TBntVRpD/Chatting-1.png" -->
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
